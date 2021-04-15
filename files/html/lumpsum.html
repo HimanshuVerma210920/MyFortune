@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sip.css">
+    <title>Lumpsum Calculator</title>
+</head>
+<body>
+    <div class="sip-box">
+        <h1>LUMPSUM CALCULATOR</h1>
+        <hr class="hr">
+        <br><br>
+        <form action="./php/lumpsum.php" method="POST">
+            <h2>Total Investment</h2> <input class="testbox" type="number" placeholder="Amount In Rupees" name="total" id="total" required><br><br>
+            <h2>Return Rate</h2> <input class="testbox" type="number" placeholder="Return In Percentage" name="return" id="return" required><br><br>
+            <h2>Time Period</h2> <input class="testbox" type="number" placeholder="Time In Years" name="time" id="time" required><br>
+            <div class="check">
+                <button class="checkbtn">Check</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

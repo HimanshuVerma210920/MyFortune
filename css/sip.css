@@ -1,0 +1,40 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+.sip-box{
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.testbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: solid;
+    border-color: teal;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+h1{
+    text-align: center;
+}
+.check{
+    text-align: center;
+}
+.checkbtn{
+    text-align: center;
+    font-size: 25px;
+    border: 2px;
+    border-color: green;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin: 12px 0;
+}
+.checkbtn:hover{
+    color: white;
+    background: teal;
+}
+.hr{
+    border: 1px solid teal;
+}

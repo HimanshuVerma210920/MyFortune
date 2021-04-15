@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{margin: 0; padding: 0;box-sizing: border-box;}
+/* Navigation Settings */
+.navbar{
+    overflow: hidden;
+    background-color:teal;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    padding: 0%;
+}
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu{
+    padding-left: 63%;
+}
+.navbar a:hover{
+    background: #ddd;
+    color: teal;
+}
+/* Home Settings */
+.logo{
+    padding-left: 25%;
+    padding-bottom: 4%;
+    width: 10%;
+    height: auto;
+}
+.home-button button{
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 7px 25px;
+    border: rgb(40, 40, 253);
+    font-weight: 500;
+    border: 3px solid teal;
+}
+.homebutton:hover{
+    color: white;
+    background: teal;
+}
+.home-button{
+    padding-left: 44%;
+    padding-bottom: 11%;
+}
+.home-content{
+    text-align: center;
+    font-size: 18px;
+}
+/* Paper-Trading Settings */
+.paper-trading{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1%;
+}
+.paper-trading-img{
+    float: left;
+    width: 40%;
+    height: auto;
+    padding-left: 13%;
+}
+.trade-content{
+    width: 50%;
+    float: right;
+   padding-right: 14%;
+   padding-top: 3%;
+    font-size: 18PX;
+    text-align: center;
+}
+/* calculator Settings*/
+.calculator{
+    padding-top: 20%;
+    width: 100%;
+    height: auto;
+}
+.calculator-img{
+    padding-right: 5%;
+    float: right;
+    width: 47%;
+    height: auto;
+}
+.cal-content{
+    padding-top: 3%;
+    padding-left: 5%;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+/* Mutual fund */
+.mutual-fund{
+padding-top: 3%;
+}
+.fundimg{
+    float: left;
+    padding-left: 8%;
+}
+.fund-content{
+    padding-top: 5%;
+    text-align: center;
+    float: right;
+    padding-right: 8%;
+    padding-left: 10%;
+    width: 65%;
+}
+/* Books */
+.books{
+padding-top: 3%;
+padding-bottom: 9%;
+}
+.book{
+    float: left;
+    width: 35%;
+    padding-top: 8%;
+    padding-left: 8%;
+}
+.book-content{
+    padding-top: 7%;
+    text-align: center;
+    float: right;
+    padding-right: 8%;
+    padding-left: 10%;
+    width: 65%;
+}
+/* Indicators */
+.indicators{
+    padding-top: 3%;
+    width:100%;
+    height: auto;
+}
+.indi{
+    float: right;
+}
+.indicator-img{
+    width: 38%;
+    padding-top: 5%;
+    padding-right: 5%;
+    height: auto;
+    float: right;
+}
+.indicator-content{
+    margin: 0%;
+    float: left;
+    padding-left: 3%;
+    padding-top: 8%;
+    text-align: center;
+    font-size: 18px;
+}
+.main-button{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 7px 25px;
+    border: none;
+    font-weight: 500;
+    border: 3px solid teal;
+}
+.main-button:hover{
+    color: white;
+    background: teal;
+}
+.h2{
+    color: teal;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="https://www.moneycontrol.com/india/mutualfunds/toprated/06/59/fundratings">Mutual Fund</a>
+                <a href="#">Calculator</a>
+                <a href="#">Paper Trading</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>  
+        </div>
+    </nav>
+    <div class="home">
+        <section>
+            <div class="logo">
+                <img src="./images/home.png">
+            </div>
+
+          <div class="home-content">
+            <h1 class="h2">
+                Know Everything About Wealth
+            </h1><br>
+            <h3>
+                Online platform to understand Investment, Paper Trading, Book Reviews, Indiactors, and more
+            </h3><br>
+          </div>
+          <div  class="home-button">
+                 <button class="home" data-toggle="paper-trading" data-target= "#paper">Explore Now</button>
+          </div>
+        </section>
+    </div>
+    <section>
+        <div class="paper-trading" id="paper">
+            <div class="paper-trading-img">
+                <img class="trade-img" src="./images/papertrade.png">
+            </div>
+            <div class="trade-content">
+                <h2 class="h2">Start your Paper Trading journey now!</h2><br>
+                <h4>
+                    Start your paper trading to gain and understand the stock market.<br>
+                    With this you can get experience without loosing real money.
+                </h4><br>
+                <button class="main-button">Explore Now</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="calculator">
+            <div class="calculator-img">
+                <img class="calculatorimg" src="./images/calculator.png">
+            </div>
+            <div class="cal-content">
+                <h2 class="h2">Calculate your Intrest<br></h2><br>
+                <h2 class="h2">Systematic Investment Plan</h2>
+                <h4>In this system, Investor should give Monthly, Quaterly or Half Yearly payment to get the desiired return.<br></h4><br>
+                <h5>Click the below Button to check the returns</h5>
+                <a href="./files/html/sip.html"> <button class="main-button" >Calculate Now</button></a><br><br><br>
+                <h2 class="h2">Lumpsum</h2>
+                <h4>In this system, Investor will give total amount at a single time to get more returns.<br></h4><br>
+                <h5>
+                   Click the below Button to check the returns
+                </h5>
+                <a href="./files/html/lumpsum.html"> <button class="main-button" >Calculate Now</button></a>
+            </div>
+        </div>
+    </section>   
+    <section>
+        <div class="mutual-fund">
+                <img class="fundimg" src="./images/mutualfund.png"><br> 
+                <div class="fund-content">
+                    <h2 class="h2">Join the wide range of mutual funds which gives good interest</h2><br>
+                    <h3> Check the UP-TO-Date list of Mutual Fund on Money Control</h3><br>
+                    <button onclick="document.location='https://www.moneycontrol.com/india/mutualfunds/toprated/06/59/fundratings'" class="main-button">Check Now</button>
+                </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="indicators">
+                <img class="indicator-img" src="./images/indicator.png">
+             <div class="indicator-content">
+                    <h2 class="h2">Find out Best Indicator for you</h2><br>
+                    <h3>Here we provide the wide range of indicators, along with there explaination and ratings.</h3><br>
+                    <h5>Click the below button to check the indicators</h5>
+                    <a href="./files/html/indicators/indicators.html"> <button class="main-button" >Check Now</button></a>
+             </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="books">
+               <img class="book" src="./images/books.png">
+            <div class="book-content">
+                <h2 class="h2">Books Helpul for Managing Finance </h2><br>
+                <h3>Here are the best books essential for managing your Finances.<br> Along it, there is summary of every book with Ratings</h3>
+                <br>
+                <h5>Click the below button to check the books</h5>
+                    <a href="./files/html/books.html"> <button class="main-button" >Check Out</button></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
